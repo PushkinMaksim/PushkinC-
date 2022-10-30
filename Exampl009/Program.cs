@@ -128,3 +128,78 @@ PrintArray(arr);
 SelectionSort(arr);
 PrintArray(arr);
 */
+/*
+int[] arr = {1, 5, 4, 3, 2, 6, 7, 1, 1};
+void PrintArray(int[] array)
+{
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+void SelectionSort(int[] array)
+{
+    for (int i = 0; i < array.Length-1; i++)
+    {
+        int maxPosition = i;
+
+        for (int j = i+1; j<array.Length; j++)
+        {
+            if(array[j] > array[maxPosition]) maxPosition = j; 
+        }
+
+        int temporary = array[i];
+        array[i] = array[maxPosition];
+        array[maxPosition] = temporary;
+    }
+}
+PrintArray(arr);
+SelectionSort(arr);
+PrintArray(arr);
+*/
+/*
+// вывод элементов массива на экран
+int[] arr = {9, 5, 4, 3, 2, 6, 7, 8, 1};
+void PrintArray(int[] array)
+{
+    int count = array.Length;
+    for (int i = 0; i < count; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+//Метод нахождения значения максимального элемента массива
+void Max(int[] array)
+{
+    int Max = 0;
+    int maxPosition = 0;
+    for (int i = 0; i < array.Length;)
+    { 
+        if(array[i] > array[maxPosition]) maxPosition = i;
+        i++;
+        Max = array[maxPosition];
+    }
+    Console.WriteLine(Max);
+}
+
+// Метод нахождения значения минимального элемента массива
+void Min(int[] array)
+{
+    int Min = 0;
+    int minPosition = 0;
+    for (int i = 0; i < array.Length;)
+    { 
+        if(array[i] < array[minPosition]) minPosition = i;
+        i++;
+        Min = array[minPosition];
+    }
+    Console.WriteLine(Min);
+}
+
+PrintArray(arr); // запуск метода вывода на экрвн элементов массива
+Max(arr); // запуск метода вывода на экран значения максимального элемента массива
+Min(arr); // запуск метода вывода на экран значения минимального элемента массива
+*/
