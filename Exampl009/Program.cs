@@ -159,9 +159,9 @@ PrintArray(arr);
 SelectionSort(arr);
 PrintArray(arr);
 */
-/*
+
 // вывод элементов массива на экран
-int[] arr = {9, 5, 4, 3, 2, 6, 7, 8, 1};
+int[] arr = {3, 1, 8, 7, 2, 6, 5, 9, 4};
 void PrintArray(int[] array)
 {
     int count = array.Length;
@@ -198,8 +198,36 @@ void Min(int[] array)
     }
     Console.WriteLine(Min);
 }
+void SumMinMax(int[] array)
+{
+    int sum = 0;
+    int min = 0;
+    int max = 0;
+    int i = 0;
+
+    for(i = 0; i < array.Length;)
+    {
+        if(array[i] < array[min]) min = i;
+        if(array[i] > array[max]) max = i;
+        i++;
+    }
+    Console.WriteLine(min);
+    Console.WriteLine(max);
+    for(i = min; i <= max;)
+    {
+        sum =  sum + array[i];
+        i++;
+    }    
+        for(i = max; i <= min;)
+        {
+            sum = sum + array[i];
+            i++;
+        }
+    Console.WriteLine();
+    Console.WriteLine(sum);
+}
 
 PrintArray(arr); // запуск метода вывода на экрвн элементов массива
-Max(arr); // запуск метода вывода на экран значения максимального элемента массива
-Min(arr); // запуск метода вывода на экран значения минимального элемента массива
-*/
+//Max(arr); // запуск метода вывода на экран значения максимального элемента массива
+//Min(arr); // запуск метода вывода на экран значения минимального элемента массива
+SumMinMax(arr);
