@@ -1,0 +1,15 @@
+C:\Users\Максим\Exampls\Exampl011\bin\Debug\net6.0\Exampl011.exe
+C:\Users\Максим\Exampls\Exampl011\bin\Debug\net6.0\Exampl011.deps.json
+C:\Users\Максим\Exampls\Exampl011\bin\Debug\net6.0\Exampl011.runtimeconfig.json
+C:\Users\Максим\Exampls\Exampl011\bin\Debug\net6.0\Exampl011.dll
+C:\Users\Максим\Exampls\Exampl011\bin\Debug\net6.0\Exampl011.pdb
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.csproj.AssemblyReference.cache
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.AssemblyInfoInputs.cache
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.AssemblyInfo.cs
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.dll
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\refint\Exampl011.dll
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.pdb
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\Exampl011.genruntimeconfig.cache
+C:\Users\Максим\Exampls\Exampl011\obj\Debug\net6.0\ref\Exampl011.dll
