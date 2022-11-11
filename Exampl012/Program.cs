@@ -76,7 +76,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomeArray(n, min, max);
 ShowArray(myArray);
-
+//сумма элементов нечетных позиций
 int Summe(int[] array)
 {
     int sum = 0;
