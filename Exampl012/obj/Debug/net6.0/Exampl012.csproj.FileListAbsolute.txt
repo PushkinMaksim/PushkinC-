@@ -1,0 +1,15 @@
+C:\Users\Максим\Exampls\Exampl012\bin\Debug\net6.0\Exampl012.exe
+C:\Users\Максим\Exampls\Exampl012\bin\Debug\net6.0\Exampl012.deps.json
+C:\Users\Максим\Exampls\Exampl012\bin\Debug\net6.0\Exampl012.runtimeconfig.json
+C:\Users\Максим\Exampls\Exampl012\bin\Debug\net6.0\Exampl012.dll
+C:\Users\Максим\Exampls\Exampl012\bin\Debug\net6.0\Exampl012.pdb
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.csproj.AssemblyReference.cache
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.AssemblyInfoInputs.cache
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.AssemblyInfo.cs
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.dll
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\refint\Exampl012.dll
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.pdb
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\Exampl012.genruntimeconfig.cache
+C:\Users\Максим\Exampls\Exampl012\obj\Debug\net6.0\ref\Exampl012.dll
