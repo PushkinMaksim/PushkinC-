@@ -32,6 +32,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 int[] myArray = CreateRandomeArray(n, min, max);
 ShowArray(myArray);
 
+/*
 //кол-во четных чисел в массиве
 int EvenNambers(int[] array)
 {
@@ -44,7 +45,17 @@ int EvenNambers(int[] array)
     return count;
 }
 Console.WriteLine(EvenNambers(myArray));
+*/
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях (индексах).
-
+int Summe(int[] array)
+{
+    int sum = 0;
+    for(int i=1; i<array.Length; i=i+2)
+    {
+        sum = sum + array[i];
+    }
+    return sum;
+}
+Console.WriteLine(Summe(myArray));
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива
